@@ -11,7 +11,6 @@ public class TotalNumberofDigit {
 
         while(num != 0 )
         {
-            
             count++;
             num = num / 10;
             
@@ -19,3 +18,5 @@ public class TotalNumberofDigit {
         System.out.println("counted total digits: "+count);
     }
 }
+
+

@@ -10,7 +10,6 @@ public class AdditionofNumber {
         int num = sc.nextInt();
 
         int add = 0;
-        
 
         while(num != 0) {
 

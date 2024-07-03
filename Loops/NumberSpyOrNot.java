@@ -15,7 +15,8 @@ public class NumberSpyOrNot {
 
         while(num != 0) {
             int rem = num % 10;
-            sum = sum + rem;
+            // sum = sum + rem;
+            sum += rem;
             mul = mul * rem;
             num = num / 10;
         }
