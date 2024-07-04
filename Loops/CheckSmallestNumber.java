@@ -20,7 +20,7 @@ class CheckSmallestNumber {
            if(digit>rem) {
 
               digit = rem;
-            
+
            }
            num = num / 10;
 
