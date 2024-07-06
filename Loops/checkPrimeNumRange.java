@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class CheckPrimeNumRange {
     public static void main(String[] args) {
-        
+
         // 4. WAJP to print prime numbers between the range 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the lower bound:");
@@ -31,8 +31,6 @@ class CheckPrimeNumRange {
 }
 
 
-// 1. WAJP to check whether the number is xylemorphloem
-//  ex. 32346 = 6 + 3 = 9 and 2 + 3 + 4 = 9 is same then xylem
 
 // 2. WAJP to check whether the number is neon number or not
 //  Square = 9 = 81 = 8+1 = 9 is calles neon number
