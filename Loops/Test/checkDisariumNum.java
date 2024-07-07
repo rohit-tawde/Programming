@@ -3,57 +3,39 @@ import java.util.Scanner;
 class checkDisariumNum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        System.out.print("Enter a number: ");
         int num = sc.nextInt();
-        int originalNum = num;
+        sc.close();
+
+        // Calculate the number of digits in num
+        int temp = num;
         int count = 0;
-        int mul1 = 1;
-        int mul2 = 1;
-        int mul3 = 1;
+        while(temp != 0) {
+           temp = temp / 10;
+           count++;
+        }
+        System.out.println("Number of digits: " + count);
 
-
-
-        while(num != 0) {
-            int rem = num % 10;
-            count++;
-             num = num / 10;
-            
-            if(count==3) {
-                //System.out.println(rem);
-               
-                mul1 = rem * rem * rem;
-                
+        // Calculate the sum of digits raised to their respective positions
+        temp = num;
+        int sum = 0;
+        int currentCount = count;
+        while(temp > 0) {
+            int rem = temp % 10;
+            int product = 1;
+            for(int i = 1; i <= currentCount; i++) {
+                product *= rem;
             }
-            if(count==2) {
-                 //System.out.println(rem);
-               
-                    mul2 = rem * rem;
-                
-            }
-             if(count==1) {
-                //System.out.println(rem);
-               
-                    mul3 = rem * rem * rem;
-                
-            }
-           
+            sum += product;
+            currentCount--;
+            temp = temp / 10;
         }
 
-
-        // System.out.println(count);
-        System.out.println(mul1);
-         System.out.println(mul2);
-          System.out.println(mul3);
-
-          int sum = mul1 + mul2 + mul3;
-
-          if(sum == originalNum) {
-            System.out.println("Its is disarium number");
-          }
-          else {
-           System.out.println("Its is not a disarium number");
-           
+        // Check if sum is equal to the original number
+        if(sum == num) {
+            System.out.println(num + " is a Disarium number");
+        } else {
+            System.out.println(num + " is not a Disarium number");
         }
-
     }
 }

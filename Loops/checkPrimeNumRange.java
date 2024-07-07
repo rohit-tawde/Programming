@@ -29,18 +29,3 @@ class CheckPrimeNumRange {
         return true;
     }
 }
-
-
-
-// 2. WAJP to check whether the number is neon number or not
-//  Square = 9 = 81 = 8+1 = 9 is calles neon number
-
-// 3. WAJP to check whether the number is amstrong number or not
-//  153 = 1 , 5, 3 qube = 1 + 125 + 27 = 153 then its amstrong
-
-// 4. WAJP to print first 20 numbers from fibonacci series
-//   the addition of previews 2 number is next number then its fibonacci series
-//  0 1 1 2 3 5 8
-
-// 5. WAJP to check whether the number is Nieven number or not
-// ex. 6804 = 6 + 8 + 0 + 4 = 18 then devide 6804/18== reminder 0 then Nieven number
