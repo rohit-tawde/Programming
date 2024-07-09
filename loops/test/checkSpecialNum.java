@@ -24,3 +24,11 @@ class checkSpecialNum {
 
     }
 }
+
+
+// 4. WAJP to check whether the number is Abudent number or not
+//  12 => Find Factors => 1+2+3+4+6 => 16>12 then its Abudent number
+
+// 5. WAJP to check whether the number is Amicable/Friendly number or not
+// take two numbers => num1= 220 -> All Factors Addition and num2 = 284 -> All Factors Addition and check Addition num1 and num2 Opposite or not if opposite then its Amicable/Friendly
+
