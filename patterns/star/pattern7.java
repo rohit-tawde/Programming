@@ -18,7 +18,7 @@ class pattern7 {
 
                 if(j>=i && i+j<=num * 2 || i+j>=num*2 && i>=j) {
 
-                System.out.print("* ");
+                    System.out.print("* ");
                 }
                 else {
                     System.out.print("  ");

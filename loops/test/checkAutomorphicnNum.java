@@ -18,6 +18,7 @@ class checkAutomorphicnNum {
             num = num / 10;
             square = square / 10;
         }
+        
         if(flag) {
             System.out.println("Automorphic number");
         }

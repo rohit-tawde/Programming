@@ -26,7 +26,7 @@ class checkSpecialNum {
 }
 
 
-// 4. WAJP to check whether the number is Abudent number or not
+// 4. WAJP to check whether the number is Abudent number or not 
 //  12 => Find Factors => 1+2+3+4+6 => 16>12 then its Abudent number
 
 // 5. WAJP to check whether the number is Amicable/Friendly number or not
